@@ -8,7 +8,10 @@ gem 'rails', '3.0.6'
 gem 'mysql2', :group => :production
 
 # Use unicorn as the web server
-# gem 'unicorn'
+gem 'unicorn'
+
+# include Rack as it's a critical gem to specify a version for
+gem 'rack'
 
 # Deploy with Capistrano
 # gem 'capistrano'
